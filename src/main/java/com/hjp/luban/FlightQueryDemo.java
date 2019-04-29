@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * @auther huang jianping
  * @date 2019/4/29 11:35
+ * test
+ *
  */
 public class FlightQueryDemo {
 
