@@ -9,7 +9,7 @@ public class CountDownLatchDemo {
     //用来表示裁判员需要维护的是6个运动员
     private static CountDownLatch endSignal = new CountDownLatch(6);
 
-    /*public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newFixedThreadPool(6);
         for (int i = 0; i < 6; i++) {
             executorService.execute(() -> {
@@ -29,5 +29,5 @@ public class CountDownLatchDemo {
         endSignal.await();
         System.out.println("所有运动员到达终点，比赛结束！");
         executorService.shutdown();
-    }*/
+    }
 }

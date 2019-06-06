@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class CyclicBarrierDemo {
     //指定必须有6个运动员到达才行
-    /*private static CyclicBarrier barrier = new CyclicBarrier(6, () -> {
+    private static CyclicBarrier barrier = new CyclicBarrier(6, () -> {
         System.out.println("所有运动员入场，裁判员一声令下！！！！！");
     });
     public static void main(String[] args) {
@@ -27,5 +27,5 @@ public class CyclicBarrierDemo {
                 }
             });
         }
-    }*/
+    }
 }

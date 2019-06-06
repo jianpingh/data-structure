@@ -5,7 +5,7 @@ import java.net.Socket;
 
 public class MainServer {
     public static void main(String[] args) throws Exception {
-        ServerSocket serverSocket = new ServerSocket(4000);
+        ServerSocket serverSocket = new ServerSocket(4001);
 
         while (true) {
             // 一直处于监听状态,这样可以处理多个用户
